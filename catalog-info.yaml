@@ -1,0 +1,58 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: zeta
+  title: Zeta Design System
+  description: The UX Design System for Zebra Technologies.
+spec:
+  owner: ux-design
+  domain: zds
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: design.zebra.com
+  title: Zebra Design Website
+  description: |
+    The official website for the Zebra Design System.
+    Documents the design principles, components, and guidelines for Zebra Technologies.
+  links: 
+    - url: https://design.zebra.com
+      title: Website
+  annotations:
+    github.com/project-slug: zebratechnologies/zeta
+    github.com/team-slug: zebratechnologies/front-end-development
+    lighthouse.com/website-url: https://design.zebra.com
+spec:
+  type: website
+  owner: group:DMO-FED
+  lifecycle: experimental
+  system: zeta
+  dependsOn:
+    - Component:zeta-web
+    - Component:zeta-icons
+    - Component:zeta_flutter
+#    - Component:zeta-react
+#    - Resource:zeta-figma
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: zeta-figma
+  title: Zeta Figma
+  links: 
+    - url: https://www.figma.com/design/REjc5TauZb2EXYouaEKTYa/Zeta-Foundations?m=auto
+      title: Zeta Foundations UX Design (Figma)
+    - url: https://www.figma.com/design/JesXQFLaPJLc1BdBM4sisI/%F0%9F%A6%93-ZDS---Components?m=auto
+      title: Zeta Components UX Design (Figma)
+    - url: https://www.figma.com/design/VQ7Aa3rDYB7mgpToI3bZ4D/%F0%9F%A6%93-ZDS---Assets?m=auto
+      title: Zeta Assets UX Design (Figma)
+    - url: https://www.figma.com/design/WmpzIizoD9F0M6kLdaCqNy/Component-Candidates?m=auto
+      title: Zeta Component Candidates UX Design (Figma)
+    # - url: https://www.figma.com/design/FRfWzxwdzldeL3z4ekvSv1/Zeta-Ops?m=auto&t=61CzEdkeI886kPqr-6
+    #   title: Zeta Ops UX Design (Figma)
+spec:
+  type: figma
+  owner: group:ux-design
+  lifecycle: experimental
+  system: zeta
