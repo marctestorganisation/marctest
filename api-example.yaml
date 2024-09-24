@@ -8,4 +8,4 @@ spec:
   owner: EMC-ZDNA
   system: ZDNA
   definition:
-    $json: 'https://gist.github.com/lenage/08964335de9064540c8c335fb849c5da#file-feature-swagger-json'
+    $text: 'https://gist.github.com/lenage/08964335de9064540c8c335fb849c5da#file-feature-swagger-json'
