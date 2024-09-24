@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: zdna-enrollment
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: EMC-ZDNA
+  system: ZDNA
+  definition:
+    $json: 'https://gist.github.com/lenage/08964335de9064540c8c335fb849c5da#file-feature-swagger-json'
