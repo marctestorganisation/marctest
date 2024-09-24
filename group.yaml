@@ -9,6 +9,5 @@ spec:
     displayName: DevEx
     email: marc.adlington1@zebra.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
-  parent: ops
   children: [backstage]
   members: [adlington95]
