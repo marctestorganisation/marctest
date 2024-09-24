@@ -4,6 +4,8 @@ metadata:
   name: zeta
   title: Zeta Design System
   description: The UX Design System for Zebra Technologies.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   owner: ux-design
   domain: zds
@@ -23,6 +25,7 @@ metadata:
     github.com/project-slug: zebratechnologies/zeta
     github.com/team-slug: zebratechnologies/front-end-development
     lighthouse.com/website-url: https://design.zebra.com
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: website
   owner: group:DMO-FED
