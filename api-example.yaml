@@ -1,6 +1,5 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
-openapi: 2.0
 metadata:
   name: zdna-enrollment
 spec:
@@ -8,5 +7,16 @@ spec:
   lifecycle: experimental
   owner: EMC-ZDNA
   system: ZDNA
-  definition:
-    $text: 'https://gist.githubusercontent.com/lenage/08964335de9064540c8c335fb849c5da/raw/6d63e3546897356882ed7e30cd48891a24e2b354/feature.swagger.json'
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Artist API
+      license:
+        name: MIT
+    servers:
+      - url: http://artist.spotify.net/v1
+    paths:
+      /artists:
+        get:
+          summary: List all artists
