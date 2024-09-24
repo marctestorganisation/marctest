@@ -1,6 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
-openapi: 3.0.3
+openapi: 2.0
 metadata:
   name: zdna-enrollment
 spec:
