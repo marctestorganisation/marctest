@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: dexexadmins
+  name: devexadmins
   description: Admins of the devex team
 spec:
   type: team
@@ -10,4 +10,4 @@ spec:
     email: marc.adlington1@zebra.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   children: [backstage]
-  members: [adlington95]
+  members: [adlington95, benken]
