@@ -5,4 +5,4 @@ nav:
   - Introduction: index.md
 
 plugins:
-  - techdocs-cor
+  - techdocs-core
