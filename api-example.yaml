@@ -8,7 +8,7 @@ spec:
   owner: EMC-ZDNA
   system: ZDNA
   definition: |
-    openapi: "3.0.0"
+    openapi: "2.0.0"
     info:
       version: 1.0.0
       title: Artist API
