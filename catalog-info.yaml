@@ -50,7 +50,7 @@ spec:
   system: harmonix
   owner: group:Harmonix-HAL
   definition:
-    $text: https://github.com/zebratechnologies/harmonix-app/src/main/resources/openapi/meta.yml
+    $text: https://github.com/zebratechnologies/harmonix-app/blob/develop/src/main/resources/openapi/meta.yml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -63,7 +63,7 @@ spec:
   system: harmonix
   owner: group:Harmonix-HAL
   definition:
-    $text: https://github.com/zebratechnologies/harmonix-app/src/main/resources/openapi/device.yml
+    $text: https://github.com/zebratechnologies/harmonix-app/blob/develop/src/main/resources/openapi/device.yml
 
 
 
